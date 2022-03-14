@@ -9,8 +9,10 @@ Please refer to step 3 of the setup guide.`);
 }
 
 // load config from .env file
+import { resolve, dirname } from "path";
+import { fileURLToPath } from "url";
 import { config } from "dotenv";
-config();
+config({ path: resolve(dirname(fileURLToPath(import.meta.url)), ".env") });
 
 // main sharding manager
 import { Fleet } from "eris-fleet";
@@ -129,7 +131,7 @@ if (isMaster) {
       new winston.transports.File({ filename: "logs/error.log", level: "error" }),
       new winston.transports.File({ filename: "logs/main.log" })
     ],
-    level: "main",
+    level: process.env.DEBUG_LOG ? "debug" : "main",
     format: winston.format.combine(
       winston.format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
       winston.format.printf((info) => {
@@ -145,7 +147,7 @@ if (isMaster) {
   winston.addColors({
     info: "green",
     main: "gray",
-    debug: "purple",
+    debug: "magenta",
     warn: "yellow",
     error: "red"
   });
