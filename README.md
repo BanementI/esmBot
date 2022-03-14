@@ -20,4 +20,5 @@ If you want to self-host the bot, a guide can be found [here](https://github.com
 
 ## Credits
 Essem for making the funny bot.
+
 P.S I'm shit at git.
