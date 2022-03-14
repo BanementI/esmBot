@@ -154,7 +154,7 @@ export default async (client, cluster, worker, ipc, message) => {
   } catch (error) {
     if (error.toString().includes("Request entity too large")) {
       await client.createMessage(message.channel.id, Object.assign({
-        content: "The resulting file was too large to upload. Try again with a smaller image if possible."
+        content: "The resulting file was too large to upload. Compress it, it's not hard."
       }, reference));
     } else if (error.toString().includes("Job ended prematurely")) {
       await client.createMessage(message.channel.id, Object.assign({
@@ -168,7 +168,7 @@ export default async (client, cluster, worker, ipc, message) => {
       _error(`Error occurred with command message ${message.cleanContent}: ${error.toString()}`);
       try {
         await client.createMessage(message.channel.id, Object.assign({
-          content: "Uh oh! I ran into an error while running this command. Please report the content of the attached file at the following link or on the esmBot Support server: <https://github.com/esmBot/esmBot/issues>"
+          content: "Uh oh! I ran into an error while running this command. Honest to God I don't really care what happened, the stack trace won't be helpful to Banement. Don't report it."
         }, reference), [{
           file: `Message: ${await clean(error)}\n\nStack Trace: ${await clean(error.stack)}`,
           name: "error.txt"
