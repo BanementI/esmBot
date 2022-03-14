@@ -18,6 +18,7 @@ esmBean runs on 1GB of RAM, please be kind to it.
 - messages.json is unfunnier.
 - New command "ben" does the funny Talking Ben thing.
 - Added distasteful things to the Reddit command
+- LavaLink is NOT set up, so no VC commands work.
 
 ## Don't trust me?
 Good! It's good practice to give Discord bots only the permissions they need. Bots like esmBot DO NOT need admin, so don't give it to them. Give the following permissions instead:
