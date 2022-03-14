@@ -1,18 +1,15 @@
-# <img src="https://github.com/esmBot/esmBot/raw/master/esmbot.png" width="128"> esmBot
-[![esmBot Support](https://discordapp.com/api/guilds/592399417676529688/embed.png)](https://discord.gg/vfFM7YT) ![GitHub license](https://img.shields.io/github/license/esmBot/esmBot.svg)
+# <img src="https://i.imgur.com/b8rNgBv.jpeg" width="128"> esmBean
+![GitHub license](https://img.shields.io/github/license/esmBot/esmBot.svg)
 
-
-esmBot is an easily-extendable, multipurpose, and entertainment-focused Discord bot made using [Eris](https://abal.moe/Eris/) with image, music, and utility commands, alongside many others.
-
-[![Top.gg](https://top.gg/api/widget/429305856241172480.svg)](https://top.gg/bot/429305856241172480)
+A personal fork of esmBean that adds unfunny things and in-jokes.
+This repo is for transparency for if I make this bot invitable for strangers.
 
 ## Usage
-You can invite the bot to your server using this link: https://projectlounge.pw/invite
+This bot is only for certain people. Currently, **I'm not open to giving invites**. You can invite the original esmBot here: https://projectlounge.pw/invite
 
-A command list can be found [here](https://projectlounge.pw/esmBot/help.html).
+A command list can be found [here](https://projectlounge.pw/esmBot/help.html) (excluding my edits).
 
 If you want to self-host the bot, a guide can be found [here](https://github.com/esmBot/esmBot/wiki/Setup).
 
 ## Credits
-Icon by [Steel](https://twitter.com/MintBurrow).
-All images, sounds, and fonts are copyright of their respective owners.
+Essem for making the funny bot.
