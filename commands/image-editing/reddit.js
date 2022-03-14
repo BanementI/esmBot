@@ -1,6 +1,6 @@
 import ImageCommand from "../../classes/imageCommand.js";
 import { random } from "../../utils/misc.js";
-const names = ["esmBot", "me_irl", "dankmemes", "hmmm", "gaming", "wholesome", "chonkers", "memes", "funny", "pcmasterrace", "thomastheplankengine"];
+const names = ["esmBot", "unfunny", "BLAHAJ", "gonewild", "gayming", "keming", "chonkers", "DragonsFuckingCars", "eyeblech", "femboy", "twinks"];
 
 class RedditCommand extends ImageCommand {
   params() {
