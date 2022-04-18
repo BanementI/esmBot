@@ -33,4 +33,17 @@ esmBean will ask for these anyway. Please don't give it admin.
 ## Credits
 Essem for making the funny bot.
 
-P.S I'm shit at git.
+## Music lyrics
+
+    "did you know 65% of UK homes contain at least one magnolia wall? i bet you didnt" : Slaves - Magnolia
+    "make an emo n*gga slit his fucking wrists" : JPEGMAFIA - ALL CAPS NO SPACES
+    "fuck that bitch i changed the plan switch my style like i switch hands" : JPEGMAFIA - BALD!
+    "boodang pharmaceutricals, im servin all these bitches" : Lil Boodang - Good Morning Sunshine
+    "open up your bible turn to page six-hundred-sixty-six" : Lil Boodang - Jesus Don't Like That I'm Gay but Satans Cool With It
+    "antisocial pessimist" : webcage - undermyskin
+    "black shirt, sweater, imma kill a redditor" : webcage - twitterthreads
+    "Волна, и нет воздуха-воздуха" : тима ищет свет (tima ishet svet) - волна (wave)
+    "Когда? Никогда!" : источник (istochnik) - когда? (when?)
+    "Мало спиц, много птиц, Мало спишь, много лжёшь" : источник & тима ищет свет - капли крови (drops of blood)
+    "Улетай, В слоудайв, Улетаю" : Ищейка - Слоудайв
+    
